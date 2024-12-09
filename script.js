@@ -16,19 +16,19 @@ const swapButton = document.getElementById('swapButton');
 function initTheme() {
     // Check localStorage first
     if (localStorage.theme === 'dark') {
-        document.documentElement.classList.add('dark');
+        document.body.classList.add('dark');
     } else if (localStorage.theme === 'light') {
-        document.documentElement.classList.remove('dark');
+        document.body.classList.remove('dark');
     } 
     // If no preference, check system preference
     else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.documentElement.classList.add('dark');
+        document.body.classList.add('dark');
     }
 }
 
 themeToggle.addEventListener('click', () => {
-    document.documentElement.classList.toggle('dark');
-    localStorage.theme = document.documentElement.classList.contains('dark') ? 'dark' : 'light';
+    document.body.classList.toggle('dark');
+    localStorage.theme = document.body.classList.contains('dark') ? 'dark' : 'light';
 });
 
 // Translation handling
@@ -92,5 +92,6 @@ fromText.addEventListener('input', translate);
 copyFromBtn.addEventListener('click', () => copyText(fromText.value, copyFromBtn));
 copyToBtn.addEventListener('click', () => copyText(toText.value, copyToBtn));
 
-// Initialize theme on load
+// Initialize theme on page load
+initTheme();
 initTheme();
