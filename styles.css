@@ -4,14 +4,14 @@
 :root {
     --bg-light: #ffffff;
     --bg-dark: #121212;
-    --text-light: #333333;
-    --text-dark: #e0e0e0;
-    --accent-primary: #3b82f6;
-    --accent-secondary: #10b981;
-    --border-light: #e0e0e0;
-    --border-dark: #2c2c2c;
-    --shadow-light: rgba(0, 0, 0, 0.05);
-    --shadow-dark: rgba(255, 255, 255, 0.05);
+    --text-light: #1a1a1a;
+    --text-dark: #f0f0f0;
+    --accent-primary: #1e40af;
+    --accent-secondary: #047857;
+    --border-light: #d1d5db;
+    --border-dark: #404040;
+    --shadow-light: rgba(0, 0, 0, 0.1);
+    --shadow-dark: rgba(255, 255, 255, 0.1);
 }
 
 * {
@@ -92,7 +92,7 @@ textarea {
 
 textarea:focus {
     border-color: var(--accent-primary);
-    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+    box-shadow: 0 0 0 3px rgba(30, 64, 175, 0.2);
 }
 
 body.dark textarea {
@@ -103,7 +103,7 @@ body.dark textarea {
 
 body.dark textarea:focus {
     border-color: var(--accent-secondary);
-    box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.2);
+    box-shadow: 0 0 0 3px rgba(4, 135, 87, 0.2);
 }
 
 /* Script Titles and Swap Button */
@@ -137,12 +137,12 @@ body.dark .script-title {
 }
 
 .btn-copy {
-    background-color: var(--accent-primary);
+    background-color: #1d4ed8;  /* Darker blue */
     color: white;
 }
 
 .btn-copy:hover {
-    background-color: #2563eb;
+    background-color: #1e40af;  /* Even darker blue on hover */
 }
 
 .btn-swap {
@@ -155,14 +155,20 @@ body.dark .script-title {
     background-color: var(--accent-primary);
     color: white;
 }
+body.dark .btn-copy {
+    background-color: #047857;  /* Dark green for dark mode */
+}
 
+body.dark .btn-copy:hover {
+    background-color: #064e3b;  /* Darker green on hover */
+}
 body.dark .btn-swap {
-    border-color: var(--accent-secondary);
-    color: var(--accent-secondary);
+    border-color: #1e40af;  /* Darker blue on hover */
+    color: #1e40af;
 }
 
 body.dark .btn-swap:hover {
-    background-color: var(--accent-secondary);
+    background-color: #1e40af;  /* Darker blue on hover */
     color: white;
 }
 
@@ -195,7 +201,7 @@ body.dark footer {
 }
 
 footer a {
-    color: var(--accent-primary);
+    color: #1d4ed8;  /* Darker, more accessible blue */
     text-decoration: none;
     font-weight: 600;
 }
