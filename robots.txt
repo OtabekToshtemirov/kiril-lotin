@@ -4,7 +4,6 @@
 User-agent: *
 Allow: /
 
-# Specify sitemap location (replace with your actual sitemap URL)
 Sitemap: https://kiril-lotin-tarjimon.uz/sitemap.xml
 
 # Yandex-specific directives
