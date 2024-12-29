@@ -185,29 +185,144 @@ body.dark .btn-swap:hover {
     transform: rotate(180deg);
 }
 
-/* Footer */
-footer {
-    text-align: center;
-    padding: 1.5rem;
-    background-color: var(--bg-light);
+/* FAQ Section Styles */
+.faq-section {
+    width: 100%;
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.faq-section h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
     color: var(--text-light);
+}
+
+body.dark .faq-section h2 {
+    color: var(--text-dark);
+}
+
+.faq-item {
+    margin-bottom: 1rem;
+    border: 1px solid var(--border-light);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    transition: all 0.3s ease;
+}
+
+.faq-item[open] {
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+body.dark .faq-item[open] {
+    background-color: rgba(255, 255, 255, 0.02);
+}
+
+.faq-item summary {
+    font-weight: 700;
+    font-size: 1.05rem;
+    cursor: pointer;
+    color: var(--accent-primary);
+    position: relative;
+    padding-right: 2rem;
+    letter-spacing: 0.01em;
+}
+
+body.dark .faq-item summary {
+    color: var(--accent-secondary);
+}
+
+
+
+.faq-item div[itemprop="acceptedAnswer"] {
+    transform: translateY(-10px);
+    opacity: 0;
+    transition: all 0.4s ease;
+    padding-left: 0.5rem;
+    border-left: 2px solid var(--border-light);
+    margin-top: 0.75rem;
+}
+
+body.dark .faq-item div[itemprop="acceptedAnswer"] {
+    border-left-color: var(--border-dark);
+}
+
+.faq-item[open] div[itemprop="acceptedAnswer"] {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.faq-item p {
+    margin-top: 0.5rem;
+    color: var(--text-light);
+    opacity: 0.85;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+body.dark .faq-item p {
+    color: var(--text-dark);
+}
+
+/* Button Responsive Styles */
+@media (max-width: 640px) {
+    .btn.btn-copy {
+        font-size: 0.875rem;
+        padding: 0.5rem 0.75rem;
+    }
+    
+    .script-header {
+        gap: 0.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .btn.btn-copy {
+        font-size: 0.75rem;
+        padding: 0.4rem 0.5rem;
+        white-space: nowrap;
+    }
+}
+
+/* Footer Styles */
+.site-footer {
+    text-align: center;
+    padding: 1.5rem 0;
+    background-color: var(--bg-light);
     border-top: 1px solid var(--border-light);
 }
 
-body.dark footer {
+body.dark .site-footer {
     background-color: var(--bg-dark);
+    border-color: var(--border-dark);
+}
+
+.copyright {
+    font-size: 0.875rem;
+    color: var(--text-light);
+    opacity: 0.8;
+}
+
+body.dark .copyright {
     color: var(--text-dark);
-    border-top-color: var(--border-dark);
 }
 
-footer a {
-    color: #1d4ed8;  /* Darker, more accessible blue */
-    text-decoration: none;
+.author-link {
     font-weight: 600;
+    color: var(--accent-primary);
+    text-decoration: none;
+    transition: text-decoration 0.2s ease;
 }
 
-footer a:hover {
+.author-link:hover {
     text-decoration: underline;
+}
+
+body.dark .author-link {
+    color: var(--accent-secondary);
 }
 
 /* Responsive Design */
