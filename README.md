@@ -30,3 +30,27 @@ Otabek Toshtemirov
 
 ### License
 MIT License
+# Kiril-Lotin Tarjimon
+
+Bu loyiha **Kiril** va **Lotin** alifbosida yozilgan matnlarni bir-biriga o'giruvchi bepul onlayn vositadir.
+
+## Xususiyatlar
+- O'zbek tilidagi Kiril va Lotin matnlarini tezkor va aniq o'girish.
+- Mobil va kompyuter qurilmalari uchun moslashtirilgan dizayn.
+- Yengil va foydalanish uchun qulay interfeys.
+
+## Ishlatish
+1. Lotin yoki Kiril matnini yuqori maydonga kiriting.
+2. Avtomatik ravishda tarjima qilingan natijani ko'ring.
+3. Natijani nusxalash uchun tugmachadan foydalaning.
+
+## Sayt Manzili
+Saytga tashrif buyurish: [Kiril-Lotin Tarjimon](https://kiril-lotin-tarjimon.uz)
+
+## Loyiha Maqsadi
+Bu loyiha O'zbek tilida yozilgan matnlarni keng ko'lamda va qulay tarzda o'girib berish uchun yaratilgan.
+
+## Ishlab Chiquvchi
+**Otabek Toshtemirov**  
+Shaxsiy sayt: [otabekengineer.site](https://otabekengineer.site)
+
