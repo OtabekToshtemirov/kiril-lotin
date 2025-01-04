@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Kirill-Lotin Tarjimon</title>
+    <link>https://kiril-lotin-tarjimon.uz/</link>
+    <description>O'zbek tilidagi matnlarni kirill alifbosidan lotin alifbosiga va aksincha o'girish uchun bepul onlayn tarjimon</description>
+    <language>uz</language>
+    
+    <item>
+      <title>Kiril-lotin tarjimonidan qanday foydalanaman?</title>
+      <link>https://kiril-lotin-tarjimon.uz/#faq</link>
+      <description>Yuqoridagi matn maydoniga kiril yoki lotin alifbosidagi matnni kiriting. Tizim avtomatik ravishda matnni boshqa alifboga o'giradi.</description>
+      <pubDate>Mon, 01 Jan 2024 12:00:00 +0500</pubDate>
+    </item>
+    
+    <item>
+      <title>Tarjima qilingan matnni qanday saqlash mumkin?</title>
+      <link>https://kiril-lotin-tarjimon.uz/#faq</link>
+      <description>Tarjima qilingan matnni nusxalash uchun "Nusxa olish" tugmasini bosing yoki matnni belgilab Ctrl + C tugmalarini bosing.</description>
+      <pubDate>Mon, 01 Jan 2024 12:00:00 +0500</pubDate>
+    </item>
+    
+    <item>
+      <title>Xizmatdan foydalanish pullikmi?</title>
+      <link>https://kiril-lotin-tarjimon.uz/#faq</link>
+      <description>Yo'q, kiril-lotin tarjimoni butunlay bepul xizmat ko'rsatadi.</description>
+      <pubDate>Mon, 01 Jan 2024 12:00:00 +0500</pubDate>
+    </item>
+    
+  </channel>
+</rss>  
