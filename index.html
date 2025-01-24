@@ -59,7 +59,7 @@
     />
 
     <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:card" content="summary" />  
     <meta name="twitter:url" content="https://kiril-lotin-tarjimon.uz/" />
     <meta
       name="twitter:title"
@@ -158,11 +158,7 @@
     <script src="script.js" defer></script>
   </head>
 
-  <body
-    class="dark:bg-gray-900 min-h-screen flex flex-col"
-    itemscope
-    itemtype="https://schema.org/WebPage"
-  >
+  <body class="app-body" itemscope itemtype="https://schema.org/WebPage">
     <!-- Google Tag Manager (noscript) -->
     <noscript
       ><iframe
@@ -173,17 +169,19 @@
       ></iframe
     ></noscript>
     <!-- End Google Tag Manager (noscript) -->
-    <div class="container mx-auto px-4 py-8 max-w-4xl flex-grow">
-      <div class="flex justify-between items-center mb-6">
-        <h1
-          class="text-2xl font-bold text-gray-800 dark:text-gray-200"
-          itemprop="headline"
-        >
-          Kirill-Lotin Tarjimon
-        </h1>
-        <button id="themeToggle" aria-label="Toggle dark mode">
-          <span>🌓</span>
-        </button>
+    <div class="app-container">
+      <div class="header-section">
+        <h1 itemprop="headline">Kirill-Lotin Tarjimon</h1>
+        <div class="language-theme-section">
+          <select id="languageSelect" class="my-select">
+            <option value="uz">O'zbekcha</option>
+            <option value="ru">Русский</option>
+            <option value="en">English</option>
+          </select>
+          <button id="themeToggle" aria-label="Toggle dark mode" class="my-button">
+            <span>🌓</span>
+          </button>
+        </div>
       </div>
 
       <div class="translation-container">
