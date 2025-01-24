@@ -51,10 +51,23 @@ h1 {
     color: var(--accent-primary);
     margin-bottom: 1.5rem;
     text-align: center;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    will-change: transform;
+    transform: translateZ(0);
 }
 
 body.dark h1 {
     color: var(--accent-secondary);
+}
+
+/* Load non-critical fonts asynchronously */
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/inter/v12/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7.woff2) format('woff2');
 }
 
 /* Translation Container */
