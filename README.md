@@ -32,7 +32,7 @@ Otabek Toshtemirov
 MIT License
 # Kiril-Lotin Tarjimon
 
-Bu loyiha **Kiril** va **Lotin** alifbosida yozilgan matnlarni bir-biriga o'giruvchi bepul onlayn vositadir.
+Bu loyiha **Kiril** va **Lotin** alifbosida yozilgan matnlarni bir-biriga o'giruvchi bepul online vositadir.
 
 ## Xususiyatlar
 - O'zbek tilidagi Kiril va Lotin matnlarini tezkor va aniq o'girish.
